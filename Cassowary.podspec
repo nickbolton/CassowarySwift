@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/tribalworldwidelondon/CassowarySwift.git", :tag => "0.1.2" }
   s.source_files  = "Sources/**/*.{swift}"
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.11'
+  s.osx.deployment_target = '10.10'
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
